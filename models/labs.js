@@ -3,7 +3,7 @@ var Schema = mongoose.Schema;
 
 var labSchema = new Schema({
 	
-	labName:{ type: String, default: '' },
+	labName:{ type: String, default: '微生物实验室' },
 	roomNum:{type: String, default: ''},
 	seats: {type: String,default: ''},
 	software: {type: String,default: ''},
