@@ -4,7 +4,7 @@ var Schema = mongoose.Schema;
 var labSchema = new Schema({
 	
 	labName:{ type: String, default: '微生物实验室' },
-	roomNum:{type: String, default: ''},
+	roomNum:{type: String, default: '202'},
 	seats: {type: String,default: ''},
 	software: {type: String,default: ''},
 	hardware:{type: String, default: ''},
